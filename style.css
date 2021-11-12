@@ -22,12 +22,26 @@ a {
   color: #F9FAF8;
   font-size: 24px;
 }
+/* Hero Main */
+.hero-main {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 15x;
+}
 
+.hero-main-text h1 {
+  margin: 10px;
+}
 .image  {
+  display: flex;
 background-color: grey;
 width: 600px;
 height: 300px;
-margin-left: 600px;
+
 }
 img {
   width: 600px;
@@ -39,7 +53,7 @@ button {
   color: white;
   border-radius: 5px;
 }
-
+/* Random Info */
 .container {
 height: 140px;
 padding: 16px;
@@ -56,7 +70,7 @@ gap: 100px;
   border-radius: 20px;
 }
 
-
+/* Quote */
 blockquote {
     display: block;
     margin-top: 1em;
