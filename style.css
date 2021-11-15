@@ -11,7 +11,6 @@ a {
   padding: 8px;
   color: #E5E7EB;
   font-size: 18px;
-
 }
 
 #header-logo {
@@ -36,17 +35,13 @@ a {
 .hero-main-text h1 {
   margin: 10px;
 }
+
 .image  {
   display: flex;
 background-color: grey;
 width: 600px;
 height: 300px;
-
 }
-img {
-  width: 600px;
-  height: 300px;
-  }
 
 button {
   background-color: #3882F6;
@@ -55,8 +50,8 @@ button {
 }
 /* Random Info */
 .container {
-height: 140px;
-padding: 16px;
+height: 200px;
+padding: 100px;
 background-color: white;
 display: flex;
 justify-content: center;
@@ -69,7 +64,19 @@ gap: 100px;
   border: 5px solid #3882F6;
   border-radius: 20px;
 }
+.random-info {
+  background-color: white;
+  color: black;
+}
+h2 {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
 
+h1 {
+  margin-bottom: 0px;
+}
 /* Quote */
 blockquote {
     display: block;
@@ -79,18 +86,18 @@ blockquote {
     margin-right: 600px;
   }
 
-
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 /* Footer */
 
 .footer {
   background-color: #1F2937;
   color: white;
-text-align: center;
+  text-align: center;
 }
