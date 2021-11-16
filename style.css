@@ -22,11 +22,10 @@ a {
   font-size: 24px;
 }
 /* Hero Main */
-.hero-main {
-  display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1000px;
+.hero-main-text {
+
+    flex-direction: column;
+    width: 500px;
     margin-left: 100px;
     margin-top: 100px;
     padding: 15x;
@@ -35,18 +34,28 @@ a {
 .hero-main-text h1 {
   margin: 10px;
 }
+.hero-main-text p {
 
+}
 .image  {
   display: flex;
+  margin-left: 700px;
 background-color: grey;
-width: 600px;
+width: 500px;
 height: 300px;
+
 }
 
 button {
   background-color: #3882F6;
   color: white;
   border-radius: 5px;
+  border-width: 1px;
+  border-color: #ffff;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 /* Random Info */
 .container {
@@ -93,6 +102,12 @@ blockquote {
     font-style: italic;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+figcaption {
+  margin-left: 50px;
+  font-weight: bold;
+
 }
 /* Footer */
 
