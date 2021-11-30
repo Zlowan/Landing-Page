@@ -20,7 +20,10 @@ a {
 .header {
   color: #F9FAF8;
   font-size: 24px;
+  height: 150px;
+  margin: 100px;
 }
+
 /* Hero Main */
 .hero-main-text {
 
@@ -28,22 +31,22 @@ a {
     width: 500px;
     margin-left: 100px;
     margin-top: 100px;
+    margin-bottom: 200px;
     padding: 15x;
 }
 
 .hero-main-text h1 {
   margin: 10px;
 }
-.hero-main-text p {
 
-}
-.image  {
+.hero-main-text .image  {
+  position: absolute;
+  right: 25px;
+  top: 250px;
+  background-color: grey;
+  width: 500px;
+  height: 300px;
   display: flex;
-  margin-left: 700px;
-background-color: grey;
-width: 500px;
-height: 300px;
-
 }
 
 button {
